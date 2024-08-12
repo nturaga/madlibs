@@ -1,4 +1,5 @@
 library(shiny)
+library(logger)
 
 generate_story <- function(noun, verb, adjective, adverb) {
     glue::glue("
@@ -25,6 +26,11 @@ ui <- fluidPage(
 )
 
 server <- function(input, output) {
+    log_info("Server started")
+
+    log_info("Input noun:", input$noun1)
+    log_info("Input verb:", input$verb)
+
     story <- eventReactive(input$submit, {
         generate_story(input$noun1, input$verb, input$adjective, input$adverb)
     })

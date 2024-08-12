@@ -544,6 +544,36 @@
         "Built": "R 4.4.0; ; 2024-04-05 22:31:19 UTC; unix"
       }
     },
+    "logger": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Type": "Package",
+        "Package": "logger",
+        "Authors@R": "c(\n    person(\"Gergely\", \"Daróczi\", , \"daroczig@rapporter.net\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-3149-8537\")),\n    person(\"System1\", role = c(\"fnd\"))\n    )",
+        "Title": "A Lightweight, Modern and Flexible Logging Utility",
+        "Description": "Inspired by the the 'futile.logger' R package and 'logging' Python module, this utility provides a flexible and extensible way of formatting and delivering log messages with low overhead.",
+        "Version": "0.3.0",
+        "Date": "2024-03-03",
+        "URL": "https://daroczig.github.io/logger/",
+        "BugReports": "https://github.com/daroczig/logger/issues",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.3.1",
+        "License": "AGPL-3",
+        "Imports": "utils",
+        "Suggests": "glue, pander, jsonlite, crayon, slackr (>= 1.4.1),\nRPushbullet, telegram, testthat, covr, knitr, rmarkdown,\ndevtools, roxygen2, parallel, rsyslog, shiny, callr, txtq,\nbotor, R.utils, syslognet",
+        "Enhances": "logging, futile.logger, log4r",
+        "VignetteBuilder": "knitr",
+        "Config/testthat/edition": "2",
+        "NeedsCompilation": "no",
+        "Packaged": "2024-03-05 14:10:49 UTC; daroczig",
+        "Author": "Gergely Daróczi [aut, cre] (<https://orcid.org/0000-0003-3149-8537>),\n  System1 [fnd]",
+        "Maintainer": "Gergely Daróczi <daroczig@rapporter.net>",
+        "Repository": "CRAN",
+        "Date/Publication": "2024-03-05 16:20:02 UTC",
+        "Built": "R 4.4.0; ; 2024-04-05 16:05:01 UTC; unix"
+      }
+    },
     "magrittr": {
       "Source": "CRAN",
       "Repository": "https://cloud.r-project.org",
@@ -928,13 +958,13 @@
   },
   "files": {
     ".Rbuildignore": {
-      "checksum": "87f9d4ec0ffedff42d9aa1a7e04c6c96"
+      "checksum": "ecb1f6047d538124f06862b8e7dbfca5"
     },
     "app.R": {
-      "checksum": "3eec8e0efd307ad348d1101e7ddc27a8"
+      "checksum": "84aa777c6d1fce8c9886028d67884069"
     },
     "DESCRIPTION": {
-      "checksum": "addaa9508c4756d1f43c8e510fae5151"
+      "checksum": "c207ce5d8b733674a85f1060ab5a7f21"
     }
   },
   "users": null
